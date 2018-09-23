@@ -5,9 +5,11 @@ Simple pong game written in c using allegro5
 liballegro5
 
 # Build
-mkdir build && cd build
-cmake ..
-make
+```Console
+mkdir build && cd build  
+cmake ..  
+make  
+```
 
 # Playing
 Use arrow up/down for controlling the left paddle. Right paddle is player by the AI.
