@@ -364,7 +364,7 @@ int main()
 		if(redraw && al_is_event_queue_empty(event_queue)) {
 			redraw = 0;
 			al_clear_to_color(al_map_rgb(0, 0, 0));
-			snprintf(tmp_buffer, 16, "%d : %d", pong_game.points_right, pong_game.points_left);
+			snprintf(tmp_buffer, 16, "%d : %d", pong_game.points_left, pong_game.points_right);
 			al_draw_text(font, al_map_rgb(255, 255, 255), 0, 0, 0, tmp_buffer);
 
 			al_get_keyboard_state(&keyState);
