@@ -12,5 +12,5 @@ make
 ```
 
 # Playing
-Use arrow up/down for controlling the left paddle. Right paddle is player by the AI.
+Use arrow up/down for controlling the left paddle. Right paddle is played by the AI.  
 There is no game end. Points are counting up endlessly.
